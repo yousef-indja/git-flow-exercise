@@ -12,7 +12,7 @@ Follow along with the activities below to get yourself ready for the rest of the
 __All Team Members__
 
 Fork the source repository:
-   1. Visit https://github.com/source-username/repository-name.
+   1. Visit https://github.com/neiloconnor/git-flow-exercise.
    2. Click the "fork" button, and choose your personal GitHub account if prompted.
 
 ---
