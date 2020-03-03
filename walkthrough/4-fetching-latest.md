@@ -14,11 +14,13 @@ Follow along with the activities below to walk through the process of pulling th
 
 __All Team Members__
 
-Pull the latest commits to the `develop` branch from the source repository:
+Pull the latest commits to the `develop` branch from the source repository. `git log` shows recent commits on your current branch.
 ```sh
 $ git checkout develop
 
 $ git pull
+
+$ git log
 ```
 
 ## Next
