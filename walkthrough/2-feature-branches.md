@@ -21,7 +21,7 @@ Follow along with the activities below to walk through the process of creating a
 
 __All Team Members__
 
-Choose a writer &mdash; you will add their recipe to the project within a new feature branch. If there are more writers than people, that is fine, only one feature branch will ultimately be merged.
+Choose one writer each &mdash; you will add their recipe to the project within a new feature branch. 
 
 Create a feature branch off of the `develop` branch that contains the writer's name and the month of the pick:
 ```sh
@@ -42,15 +42,8 @@ $ git branch
 $ git branch cuba-pudding-jr-feb
 ```
 
----
 
-:cop: :raised_hand: - Please wait until everyone has caught up.
-
-:construction: :construction: :construction: :construction: :construction: :construction: :construction: :construction: :construction: :construction: :construction: :construction: :construction: :construction: :construction:
-
----
-
-### 2 - Make Changes to the Project
+### 2 - Add your recipe content
 
 __All Team Members__
 
@@ -62,13 +55,6 @@ In your text editor, make the following changes:
 
 Since other people are going to be making changes at the same time, be careful not to make changes to lines of code that are not relevant to your change.
 
----
-
-:cop: :raised_hand: - Please wait until everyone has caught up.
-
-:construction: :construction: :construction: :construction: :construction: :construction: :construction: :construction: :construction: :construction: :construction: :construction: :construction: :construction: :construction:
-
----
 
 ### 3 - Review Changes
 
@@ -126,13 +112,6 @@ index 250faea..7315699 100644
 
 If you see that you have changes to unexpected lines, please correct them at this time.
 
----
-
-:cop: :raised_hand: - Please wait until everyone has caught up.
-
-:construction: :construction: :construction: :construction: :construction: :construction: :construction: :construction: :construction: :construction: :construction: :construction: :construction: :construction: :construction:
-
----
 
 ### 4 - Stage and Commit Changes
 
@@ -160,35 +139,15 @@ Now that all of your changes have been staged, commit them with an appropriate m
 $ git commit -m "Adding Cuba Pudding Jr.'s Feb Recipe"
 ```
 
----
-
-:cop: :raised_hand: - Please wait until everyone has caught up.
-
-:construction: :construction: :construction: :construction: :construction: :construction: :construction: :construction: :construction: :construction: :construction: :construction: :construction: :construction: :construction:
-
----
 
 ### 5 - Push Changes to Fork
 
 Now that your changes have been committed, let's get them published to your Fork on GitHub:
 ```sh
-$ git push -u me HEAD
+$ git push origin cuba-pudding-jr-feb
 ```
 
-:bulb: Specifying the HEAD reference instructs git to push to the same branch as the HEAD of your local project, which is currently your feature branch.
-
-:bulb: The `-u` flag instructs git to link your local branch with the remote's branch so that future push & pull commands do not require you
-to specify where you would like to push or pull code from.
-
 Navigate to your Fork on Github, you should now see your new branch in the interface.
-
----
-
-:cop: :raised_hand: - Please wait until everyone has caught up.
-
-:construction: :construction: :construction: :construction: :construction: :construction: :construction: :construction: :construction: :construction: :construction: :construction: :construction: :construction: :construction:
-
----
 
 ### 6 - Open a Pull Request
 
@@ -198,13 +157,6 @@ On the Pull Request interface, make sure that the base fork is `source-username\
 
 Please draft a message documenting the changes that you've made and then click the green "Create pull request" button.
 
----
-
-:cop: :raised_hand: - Please wait until everyone has caught up.
-
-:construction: :construction: :construction: :construction: :construction: :construction: :construction: :construction: :construction: :construction: :construction: :construction: :construction: :construction: :construction:
-
----
 
 ## Next
 
