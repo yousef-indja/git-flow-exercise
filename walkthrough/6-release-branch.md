@@ -4,13 +4,13 @@
 | --- | --- |
 |  February 15<sup>th</sup> | Release |
 
-It is now time to begin testing `v1.1` of the app and submit it for the magazine's review
+It is now time to begin testing `v1.1.0` of the app and submit it for the magazine's review
 
 ## :running: Activities
 
 ### 1 - Create a Release Branch
 
-__Maintainers__
+__One Team Member__
 
 Bring your local develop branch up to date with the source repository:
 ```sh
@@ -19,12 +19,12 @@ $ git checkout develop
 $ git pull
 ```
 
-Create a new branch off of `develop` named `release-1.1`:
+Create a new branch off of `develop` named `release-1.1.0`:
 ```sh
-$ git checkout -b release-1.1
+$ git checkout -b release-1.1.0
 ```
 
-Bump the version number to 1.1:
+Bump the version number to 1.1.0:
 ```
 major=1
 minor=1
@@ -35,16 +35,16 @@ Finally, stage and commit the change:
 ```sh
 $ git add app/VERSION
 
-$ git commit -m "Bump version to 1.1"
+$ git commit -m "Bump version to 1.1.0"
 ```
 
 ### 2 - Publish the Release Branch
 
-__Maintainers__
+__One Team Member__
 
-Choose a maintainer to publish the release branch to the source repository:
+Publish the release branch to the source repository:
 ```sh
-$ git push -u origin HEAD
+$ git push origin release-1.1.0
 ```
 
 ## Next
